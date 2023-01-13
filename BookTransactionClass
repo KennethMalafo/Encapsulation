@@ -1,0 +1,44 @@
+package Encapsulation;
+
+public class BookTransactionClass {
+    private int TransNumber;
+    private int StudentID;
+    private String Date;
+    private int BookCode;
+    private String DateBorrowed;
+    private String DateReturn;
+    private String Penalty;
+
+    //Getter - Read
+
+    public int getTransNumber() {return TransNumber;}
+
+    public int getStudentID() {return StudentID;}
+
+    public String getDate() {return Date;}
+
+    public int getBookCode() {return BookCode;}
+
+    public String getDateBorrowed() {return DateBorrowed;}
+
+    public String getDateReturn() {return DateReturn;}
+
+    public String getPenalty() {return Penalty;}
+
+    //Setter - Write
+
+
+    public void setTransNumber(int transNumber) {TransNumber = transNumber;}
+
+    public void setStudentID(int studentID) {StudentID = studentID;}
+
+    public void setDate(String date) {Date = date;}
+
+    public void setBookCode(int bookCode) {BookCode = bookCode;}
+
+    public void setDateBorrowed(String dateBorrowed) {DateBorrowed = dateBorrowed;}
+
+    public void setDateReturn(String dateReturn) {DateReturn = dateReturn;}
+
+    public void setPenalty(String penalty) {Penalty = penalty;}
+}
