@@ -1,0 +1,54 @@
+package Encapsulation;
+
+public class BookClass {
+    private int BookCode;
+    private String Title;
+    private String Author;
+    private String Genre;
+    private String Publisher;
+    private int YearPublish;
+    private int Edition;
+
+    //Getter - Read
+    public int getBookCode()
+        {return BookCode;}
+    public String getTitle()
+        {return Title;}
+
+    public String getAuthor()
+        {return Author;}
+
+    public String getGenre()
+        {return Genre;}
+
+    public String getPublisher()
+        {return Publisher;}
+
+    public int getYearPublish()
+        {return YearPublish;}
+
+    public int getEdition()
+        {return Edition;}
+    //Writer Method - Write
+
+    public void setBookCode(int bookCode)
+        {BookCode = bookCode;}
+
+    public void setTitle(String title)
+        {Title = title;}
+
+    public void setAuthor(String author)
+        {Author = author;}
+
+    public void setGenre(String genre)
+        {Genre = genre;}
+
+    public void setPublisher(String publisher)
+        {Publisher = publisher;}
+
+    public void setYearPublish(int yearPublish)
+        {YearPublish = yearPublish;}
+
+    public void setEdition(int edition)
+        {Edition = edition;}
+}
