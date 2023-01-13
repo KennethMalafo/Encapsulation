@@ -1,0 +1,68 @@
+package Encapsulation;
+
+public class LibraryClass {
+        public static void main(String[] args) {
+
+            BookClass objBook = new BookClass();
+
+            objBook.setBookCode(123567);
+            objBook.setTitle("Alamat ng Kapogian ni Kenneth");
+            objBook.setAuthor("Kenneth C. Malafo");
+            objBook.setGenre("Short Story");
+            objBook.setPublisher("Kenneth C. Malafo");
+            objBook.setYearPublish(2003);
+            objBook.setEdition(1256);
+
+
+            System.out.println();
+            System.out.println("Book ID: " + objBook.getBookCode());
+            System.out.println("Book Title: " + objBook.getTitle());
+            System.out.println("Book Author: " + objBook.getAuthor());
+            System.out.println("Book Genre: " + objBook.getGenre());
+            System.out.println("Book Publisher: " + objBook.getPublisher());
+            System.out.println("Year Published: " + objBook.getYearPublish());
+            System.out.println("Book Edition: " + objBook.getEdition());
+
+            StudentClass objStudent = new StudentClass();
+
+            objStudent.setStudentID(20216272);
+            objStudent.setFName("Juan");
+            objStudent.setMName("Man");
+            objStudent.setLName("Dela Cruz");
+            objStudent.setYear(2023);
+            objStudent.setLevel(2);
+            objStudent.setBlock(2);
+            objStudent.setCourse("BSIT");
+            objStudent.setAddress("Urdaneta");
+            objStudent.setContactNumber(63946070);
+
+            System.out.println();
+            System.out.println("Student ID: " + objStudent.getStudentID());
+            System.out.println("First Name: " + objStudent.getFName());
+            System.out.println("Middle Name: " + objStudent.getMName());
+            System.out.println("Last Name: " + objStudent.getLName());
+            System.out.println("Year: " + objStudent.getYear());
+            System.out.println("Level: " + objStudent.getLevel());
+            System.out.println("Block: " + objStudent.getBlock());
+            System.out.println("Course: " + objStudent.getCourse());
+            System.out.println("Address: " + objStudent.getAddress());
+            System.out.println("Contact Number: " + objStudent.getContactNumber());
+
+            BookTransactionClass objBookTransac = new BookTransactionClass();
+
+            objBookTransac.setTransNumber(246);
+            objBookTransac.setStudentID(20216272);
+            objBookTransac.setDate("Jan 13, 2023");
+            objBookTransac.setDateBorrowed("Jan 13, 2023");
+            objBookTransac.setDateReturn("Jan 18,2023");
+            objBookTransac.setPenalty("1,000 pesos");
+
+            System.out.println();
+            System.out.println("Transaction Number: " + objBookTransac.getTransNumber());
+            System.out.println("Student ID: " + objBookTransac.getStudentID());
+            System.out.println("Date: " + objBookTransac.getDate());
+            System.out.println("Date Borrowed: " + objBookTransac.getDateBorrowed());
+            System.out.println("Date Return: " + objBookTransac.getDateReturn());
+            System.out.println("Penalty: " + objBookTransac.getPenalty());
+        }
+}
