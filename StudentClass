@@ -1,0 +1,74 @@
+package Encapsulation;
+
+public class StudentClass {
+
+    private int StudentID;
+    private String FName;
+    private String MName;
+    private String LName;
+    private int Year;
+    private int Level;
+    private int Block;
+    private String Course;
+    private String Address;
+    private String Gender;
+    private int ContactNumber;
+
+    //Getter - Read
+    public int getStudentID()
+        {return StudentID;}
+
+    public String getFName()
+        {return FName;}
+
+    public String getMName()
+        {return MName;}
+
+    public String getLName()
+        {return LName;}
+
+    public int getYear()
+        {return Year;}
+
+    public int getLevel()
+        {return Level;}
+
+    public int getBlock()
+        {return Block;}
+
+    public String getCourse()
+        {return Course;}
+
+    public String getAddress()
+        {return Address;}
+
+    public String getGender()
+        {return Gender;}
+
+    public int getContactNumber()
+        {return ContactNumber;}
+
+    //Setter - Write
+
+    public void setStudentID(int studentID) {StudentID = studentID;}
+
+    public void setFName(String FName) {this.FName = FName;}
+
+    public void setMName(String MName) {this.MName = MName;}
+
+    public void setLName(String LName) {this.LName = LName;}
+
+    public void setYear(int year) {Year = year;}
+
+    public void setLevel(int level) {Level = level;}
+
+    public void setBlock(int block) {Block = block;}
+
+    public void setCourse(String course) {Course = course;}
+
+    public void setAddress(String address) {Address = address;}
+
+    public void setGender(String gender) {Gender = gender;}
+
+    public void setContactNumber(int contactNumber) {ContactNumber = contactNumber;}
+}
